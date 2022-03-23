@@ -5,14 +5,6 @@ html, body {
   text-align: justify;
 }
 
-html {
-	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 body {
 	padding:  50px;
 	font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -126,14 +118,4 @@ a:visited {
   font-family: 'Lato', sans-serif;
   color: #0148A4;
   text-decoration: none;
-}
-
-@media screen and (max-width: 600px) {
-  table {
-    display: inline-block;
-    vertical-align: top;
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
