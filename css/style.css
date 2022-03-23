@@ -78,6 +78,7 @@ table {
 
 .col {
   width: 20%;
+  max-width: 50px;
   background: rgba(1,72,164,0.2);
   text-align: center;
 }
@@ -118,13 +119,4 @@ a:visited {
   font-family: 'Lato', sans-serif;
   color: #0148A4;
   text-decoration: none;
-}
-
-@media screen and (max-device-width: 600px) {
-  table {
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    margin: 30px 2% 0 0;
-  }
 }
