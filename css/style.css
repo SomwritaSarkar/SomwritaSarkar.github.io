@@ -128,11 +128,11 @@ a:visited {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   table {
     display: inline-block;
     vertical-align: top;
     margin: 30px 2% 0 0;
-    width: 100%;
+    width: 98%;
   }
 }
