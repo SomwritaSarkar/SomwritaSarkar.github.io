@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8">
+		<title>Somwrita Sarkar: Data, Visualizations, and Code</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+    <body>
+
+    <section>
+      <h2 style="color: #424242; text-align: center; margin-bottom: 0px;">Somwrita Sarkar</h2>
+      <h2 style="color: #0148A4; text-align: center; margin-bottom: 40px; margin-top: 0px;">Urban Science Lab @ Sydney</h2>
+    </section>
+
+    <section>
+        <table class=center>
+          <tr>
+              <th class=col><a href="https://somwritasarkar.github.io/">Home</a></th> 
+              <th class=col><a href="research.html" target="_blank">Research</a></th> 
+              <th class=col><a href="news.html" target="_blank">News</a></th> 
+              <th class=col><a href="teaching.html" target="_blank">Teaching</a></th> 
+              <th class=col><a href="datacode.html" target="_blank">Data & Code</a></th>
+            </tr>
+          </table>
+        </section>
+
+
+       <h2 style="text-align: center; margin-bottom: 60px;">Chord Diagram Visualizations for Sydney 2016 Census Journey To Work Flows</h2>
+
+       <p style="text-align: center;"><a href="chords.html">Chord Diagram Visualizations</a> for our 2020 paper in Urban Studies on <a href="https://journals.sagepub.com/doi/abs/10.1177/0042098019832517">Measuring polycentricity via network flows, spatial interaction and percolation.</a></p>
+
+       <p>Here are the regions in the Sydney Greater Metropolitan (GMR) Region. We want to identify the biggest origins and destinations. That is, we want to identify the regions that have the largest number of people going to work somewhere else in the GMR, as opposed to those regions that attract the largest number of people into them. These primary work destinations, Statistical Areas Level 4 (SA4 by the Australian Bureau of Statistics defined Australian Statistical Geography) are "centres".</p>
+
+       <p>The base arc for each region shows the number of people residing there. The width of each link at the base is the number of people who travel from that region to somewhere else to work. A link is coloured orange if the number of people traveling to a focus location is larger than the number of people traveling from this focus location. The more orange the picture, the bigger that location's role as "center".</p>
+
+       <p>Sydney plans to move towards a more polycentric organization. Historically, the largest center, the Central Business District (CBD) in the City and Inner South SA4, is still clearly the largest center (its all orange). Parramatta, which is planned as the second CBD, shows much weaker "center-ness" as compared to the dominant CBD. Thus, the analysis shows that if a polycentric Sydney with 30 minute neighborhoods is to be realised, a lot of journey to work re-organization and planned increases of employment in all planned centers are called for. At the moment, the true Sydney is mostly monocentric, with most second-order centers close to the main CBD, and lots of dispersed employment.</p>
+
+       <p>The chord diagrams have been generated using 2016 Census Journey to Work data, and the Javascript library d3.js.</p>
+
+       <table class=center>
+        <tr>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/01_BaulkhamHills_Hawkesbury.png" alt="01_BaulkhamHills_Hawkesbury.png">
+          </th>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/02_Blacktown.png" alt="02_Blacktown.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col1>
+            <p>1. Baulkham Hills and Hawkesbury</p>
+          </th>
+          <th class=col2>
+            <p>2. Blacktown</p>
+          </th>
+        </tr>
+        
+        <tr>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/03_City_InnerSouth.png" alt="03_City_InnerSouth.png">
+          </th>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/04_EasternSuburbs.png" alt="04_EasternSuburbs.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col2>
+            <p>3. City and Inner South</p>
+          </th>
+          <th class=col1>
+            <p>4. Eastern Suburbs</p>
+          </th>
+        </tr>
+
+        <tr>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/05_InnerSouthWest.png" alt="05_InnerSouthWest.png">
+          </th>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/06_InnerWest.png" alt="06_InnerWest.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col1>
+            <p>5. Inner South West</p>
+          </th>
+          <th class=col2>
+            <p>6. Inner West</p>
+          </th>
+        </tr>
+
+        <tr>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/07_NorthSydney_Hornsby.png" alt="07_NorthSydney_Hornsby.png">
+          </th>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/08_NorthernBeaches.png" alt="08_NorthernBeaches.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col2>
+            <p>7. North Sydney and Hornsby</p>
+          </th>
+          <th class=col1>
+            <p>8. Northern Beaches</p>
+          </th>
+        </tr>
+
+        <tr>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/09_OuterSouthWest.png" alt="09_OuterSouthWest.png">
+          </th>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/10_OuterWest_BlueMountains.png" alt="10_OuterWest_BlueMountains.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col1>
+            <p>9. Outer South West</p>
+          </th>
+          <th class=col2>
+            <p>10. Outer West and Blue Mountains</p>
+          </th>
+        </tr>
+
+        <tr>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/11_Parramatta.png" alt="11_Parramatta.png">
+          </th>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/12_Ryde.png" alt="12_Ryde.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col2>
+            <p>11. Parramatta</p>
+          </th>
+          <th class=col1>
+            <p>12. Ryde</p>
+          </th>
+        </tr>
+
+        <tr>
+          <th class=col1>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/13_SouthWest.png" alt="13_SouthWest.png">
+          </th>
+          <th class=col2>
+            <img class="centeredImage thumbnail" src="images/DataAndCode/chords/14_Sutherland.png" alt="14_Sutherland.png">
+          </th>
+        </tr>
+        <tr>
+          <th class=col1>
+            <p>13. South West</p>
+          </th>
+          <th class=col2>
+            <p>14. Sutherland</p>
+          </th>
+        </tr>
+
+
+      </table>
+
+
+     </body>
