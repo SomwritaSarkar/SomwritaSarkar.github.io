@@ -72,13 +72,12 @@ img {
 table {
   width: 100%;
   table-layout: fixed;
-  font-size: 1.0em;
+  font-size: 0.8em;
   font-family: 'Lato', sans-serif;
 }
 
 .col {
   width: 20%;
-  max-width: 50px;
   background: rgba(1,72,164,0.2);
   text-align: center;
 }
