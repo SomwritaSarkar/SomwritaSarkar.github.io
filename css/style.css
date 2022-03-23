@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+
+html, body {
+  text-align: justify;
+}
+
+body {
+	padding:  50px;
+	font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	color: #282828;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #424242;
+	font-size: 42px;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #7B7B7B;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	color: #7B7B7B;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 20px;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+ol, ul {
+	line-height: 28px;
+}
+
+img {
+	width: 50%;
+}
+
+.thumbnail {
+	width: 90%;
+	margin-top: 40px;
+
+}
+
+.centeredImage {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 1.0em;
+  font-family: 'Lato', sans-serif;
+}
+
+.col {
+  width: 20%;
+  background: rgba(1,72,164,0.2);
+  text-align: center;
+}
+
+.col1 {
+  width: 25%;
+  background: rgba(1,72,164,0.1);
+  text-align: center;
+}
+
+.col2 {
+  width: 25%;
+  background: rgba(241,241,241,0.9);
+  text-align: center;
+}
+
+.center {
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+
+a:link {
+  font-family: 'Lato', sans-serif;
+  color: #0148A4;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Lato', sans-serif;
+  color: #0148A4;
+  text-decoration: underline;
+}
+			
+
+a:visited {
+  font-family: 'Lato', sans-serif;
+  color: #0148A4;
+  text-decoration: none;
+}
