@@ -119,3 +119,9 @@ a:visited {
   color: #0148A4;
   text-decoration: none;
 }
+
+@media screen and (max-device-width: 600px) {
+  th {
+	  display: block;
+	}
+}
