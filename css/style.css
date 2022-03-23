@@ -118,3 +118,13 @@ a:visited {
   color: #0148A4;
   text-decoration: none;
 }
+
+/* One column only */
+@media screen and (max-width: 600px) {
+ table {
+    display: inline-block;
+    vertical-align: top;
+    width: 98%;
+    margin: 30px 2% 0 0;
+  }
+}
