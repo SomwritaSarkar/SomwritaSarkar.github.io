@@ -5,6 +5,14 @@ html, body {
   text-align: justify;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	padding:  50px;
 	font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -53,7 +61,8 @@ ol, ul {
 }
 
 img {
-	width: 50%;
+	max-width: 100%;
+	width: 70%;
 }
 
 .thumbnail {
@@ -121,10 +130,10 @@ a:visited {
 
 /* One column only */
 @media screen and (max-width: 600px) {
- table {
+  table {
     display: inline-block;
     vertical-align: top;
-    width: 98%;
+    width: 100%;
     margin: 30px 2% 0 0;
   }
 }
