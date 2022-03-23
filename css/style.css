@@ -129,10 +129,10 @@ a:visited {
 }
 
 @media screen and (max-device-width: 600px) {
-  table {
+  table, ul, ol {
     display: inline-block;
     vertical-align: top;
-    width: 98%;
+    width: 100%;
     margin: 30px 2% 0 0;
   }
 }
